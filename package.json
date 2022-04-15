@@ -1,0 +1,13 @@
+{
+  "name": "AutoDiscord",
+  "version": "0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Fleoxi/AutoDiscord",
+  "author": "Fleoxi",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security"
+  }
+}

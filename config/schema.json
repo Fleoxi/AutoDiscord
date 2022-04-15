@@ -1,0 +1,115 @@
+{
+    "roles":
+    [
+        { "name": "Le Fléau", "color": "#ff0000" },
+        { "name": "La Gardienne", "color": "#ff0000" },
+        { "name": "Les Démons", "color": "#ff0000" },
+        { "name": "Les Elites", "color": "#ff0000" },
+        { "name": "Les Avares", "color": "#ff0000" },
+        { "name": "Les Damnés", "color": "#ff0000" },
+        { "name": "Les Ames Errantes", "color": "#ff0000" },
+        { "name": "Les Nouveaux Nés", "color": "#ff0000" }
+    ],
+    "channels":
+    {
+        "🏠│COMMUNAUTÉ": 
+        {
+            "🎊丨accueil": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            },
+            "📄丨réglement": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            },
+            "⭐丨rôles": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            }
+        },
+        "🎥│STREAMS":
+        {
+            "🌐│annonces": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            },
+            "📸│setup": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            },
+            "⭐│En Stream": {
+                "type": 1,
+                "private": [0, 1, 2],
+                "writable": false
+            }
+        },
+        "💬│SALONS TEXTUELS":
+        {
+            "📢丨annonces": {
+                "type": 0,
+                "private": false,
+                "writable": false
+            },
+            "💬丨général": {
+                "type": 0,
+                "private": false
+            },
+            "📸丨clips": {
+                "type": 0,
+                "private": false
+            },
+            "📸丨médias": {
+                "type": 0,
+                "private": false
+            },
+            "🌟丨niveaux": {
+                "type": 0,
+                "private": false
+            },
+            "📮丨suggestions": {
+                "type": 0,
+                "private": false
+            },
+            "🤖丨commandes": {
+                "type": 0,
+                "private": false
+            }
+        },
+        "🔊│SALONS VOCAUX":
+        {
+            "➕ Créer votre salon": {
+                "type": 1,
+                "private": false
+            }
+        },
+        "📛│MODÉRATION":
+        {
+            "🧙丨discord": {
+                "type": 0,
+                "private": [0, 1, 2],
+                "writable": false
+            },
+            "💬丨général": {
+                "type": 0,
+                "private": [0, 1, 2]
+            },
+            "🔴丨a-surveiller": {
+                "type": 0,
+                "private": [0, 1, 2]
+            },
+            "❕丨signalements": {
+                "type": 0,
+                "private": [0, 1, 2]
+            },
+            "🔐丨Staff": {
+                "type": 1,
+                "private": [0, 1, 2]
+            }
+        }
+    }
+}
